@@ -248,7 +248,7 @@ function App () {
     const asd = () => {
         const uploadData = new FormData();
         uploadData.append('title', title);
-        uploadData.append('cover', cover);
+        uploadData.append('image', cover);
 
         const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjUyNzY3MDU0LCJpYXQiOjE2NTI3NjY3NTQsImp0aSI6IjE5YWI3OTcyNjFlYzQzMTNhMzBhY2FjYTZkNTRkMzIxIiwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJpc2EifQ.4NTALexFjBGeVAuc_qPYyW2xugOGZJRaFDlzj0lIsgY'
         let data = {
